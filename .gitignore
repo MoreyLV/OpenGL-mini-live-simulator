@@ -1,0 +1,15 @@
+# build
+build/
+cmake-build-*/
+*.o
+*.obj
+
+# executables
+*.exe
+
+# IDE
+.vscode/
+.idea/
+
+# SFML / OpenGL
+*.dll
