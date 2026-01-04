@@ -3,6 +3,9 @@
 A tutorial project for learning modern OpenGL (3.3 Core) using SFML.
 The project is being built from scratch with an emphasis on understanding the architecture rather than using ready-made engines.
 
+<img width="1277" height="746" alt="image" src="https://github.com/user-attachments/assets/6e63b0c6-92d2-4af9-8b5b-87c3e440aaa9" />
+
+
 The goal is to understand how:
 - shaders
 - meshes
