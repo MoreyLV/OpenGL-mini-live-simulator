@@ -26,3 +26,21 @@ The goal is to understand how:
 - Utility
 - Camera
 - Minimal but clean architecture
+
+
+🧠 Technologies
+- GLAD
+- OpenGL
+- GLM
+- SFML
+- C++
+
+⚙️ Installation & Usage
+Download all files openopen via C++ environment and build CMake then launch main.cpp
+
+
+📝 License
+This project is distributed under the MIT License — feel free to use and modify it.
+
+
+
