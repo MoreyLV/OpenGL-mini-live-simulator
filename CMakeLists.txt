@@ -6,7 +6,6 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 include(FetchContent)
 
-# Подтягиваем SFML из GitHub (соберётся вместе с проектом)
 FetchContent_Declare(
         SFML
         GIT_REPOSITORY https://github.com/SFML/SFML.git
@@ -15,7 +14,6 @@ FetchContent_Declare(
 
 FetchContent_MakeAvailable(SFML)
 
-# --- GLM (матрицы, вектора) ---
 FetchContent_Declare(
         glm
         GIT_REPOSITORY https://github.com/g-truc/glm.git
