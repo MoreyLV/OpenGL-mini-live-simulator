@@ -83,7 +83,6 @@ void Simulation::movement(std::vector<SquareObject>& tiles, int id, float map_wi
             }
 
 
-            // проверка коллизий
             for ( auto& other : tiles) {
                 if (other.id != tile.id && other.x == new_x && other.y == new_y && other.type != "food" && canMove) {
                     other.x = old_x;
@@ -99,7 +98,6 @@ void Simulation::movement(std::vector<SquareObject>& tiles, int id, float map_wi
                 }
             }
 
-            // если свободно — двигаем
             if (canMove) {
                 tile.x = new_x;
                 tile.y = new_y;
